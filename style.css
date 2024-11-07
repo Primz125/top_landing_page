@@ -1,4 +1,22 @@
-div.hero-section, footer{
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, .hero-section, footer {
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+header h3 {
+    font-size: 24px;
+}
+
+.hero-text h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-text p, header ul {
+    font-size: 18px;
+    color: #e5e7eb;
 }
